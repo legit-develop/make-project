@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  box-sizing: border-box;
 }
 
 .body-content {
@@ -22,4 +23,22 @@ body {
   color: #fff;
   display: flex;
   justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.header ul {
+  display: flex;
+  gap: 50px;
+}
+
+.header ul li {
+  list-style-type: none;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
 }
