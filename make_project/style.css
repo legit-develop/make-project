@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.body-content {
+  background: url("https://media.istockphoto.com/photos/aerial-view-of-capetown-south-africa-picture-id491411894?b=1&k=20&m=491411894&s=170667a&w=0&h=-O7FR2j2McHeF2dQbU4lrwnunOrlFPDb01pBhJ-pHVM=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.body-content h1 {
+  font-size: 60px;
+}
+
+.header {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
